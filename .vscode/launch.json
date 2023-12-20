@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:wallpapper}",
+            "name": "Debug wallpapper",
+            "program": "${workspaceFolder:wallpapper}/.build/debug/wallpapper",
+            "preLaunchTask": "swift: Build Debug wallpapper"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:wallpapper}",
+            "name": "Release wallpapper",
+            "program": "${workspaceFolder:wallpapper}/.build/release/wallpapper",
+            "preLaunchTask": "swift: Build Release wallpapper"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:wallpapper}",
+            "name": "Debug wallpapper-exif",
+            "program": "${workspaceFolder:wallpapper}/.build/debug/wallpapper-exif",
+            "preLaunchTask": "swift: Build Debug wallpapper-exif"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:wallpapper}",
+            "name": "Release wallpapper-exif",
+            "program": "${workspaceFolder:wallpapper}/.build/release/wallpapper-exif",
+            "preLaunchTask": "swift: Build Release wallpapper-exif"
+        }
+    ]
+}
